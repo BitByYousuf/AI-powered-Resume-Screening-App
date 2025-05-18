@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from PyPDF2 import PdfReader
 
 
-API_TOKEN = "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"
+API_TOKEN = "YOUR TOKEN HERE"
 API_URL = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
